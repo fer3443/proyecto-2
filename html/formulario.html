@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Nuevo Proyecto</h1>
+        <a href="/html/index.html">Home</a>
+        <a href="#">Link 2</a>
+    </header>
+    <main>
+        <form>
+            <h3>Registrate</h3>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+            <input type="text" id="apellido" placeholder="Ingresa tu apellido">
+            <div class="cajaInputSexo">
+                <div class="inputSexo">
+                    <label for="M">Masculino</label>
+                    <input type="radio" name="sexo" id="M" value="M">
+                </div>
+                <div class="inputSexo">
+                    <label for="F">Femenino</label>
+                    <input type="radio" name="sexo" id="F" value="F">
+                </div>
+            </div>
+            <input type="email" id="user" placeholder="Ingresa tu e-mail">
+            <input type="password" id="contraseña" placeholder="Ingresa tu contraseña">
+            <button id="boton_ingresar">Ingresar!</button>
+            <a href="#" target="_blank">Olvidaste tu contraseña?</a>
+        </form>
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+</html>
