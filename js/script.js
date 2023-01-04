@@ -1,3 +1,4 @@
 if(document.title ==="Formulario"){
-    console.log("funciona")
+    const inputNombre= document.querySelector("#nombre")
+    const inputApellido= document.querySelector("#apellido")
 }
