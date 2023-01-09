@@ -54,7 +54,7 @@ form {
     box-shadow: 0 0 5px;
     width: 40%;
     height: auto;
-    margin: 2vh auto;
+    margin: 8vh auto 0 auto;
     padding: 2vh 0;
 }
 form input, button, h3 {
@@ -93,8 +93,22 @@ form button:hover {
     width: 80%;
 }
 input[type=radio] {
-    margin-left: 1vw;
+    margin-left: 1vh;
 }
+/*alerta*/
+.alerta {
+    border: 1px solid lightgreen;
+    background-color: #c8efc8;
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    margin: 2vh auto;
+    padding: 3vh 2vw;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+}
+
 /*Footer*/
 footer{
     background-color: #5e5e5e;
@@ -104,3 +118,40 @@ footer h4 {
     text-align: center;
     color: #ffffff;
 }
+@media (min-width:426px) and (max-width:1000px) {
+    form {
+        width: 80%;
+    }
+    form input, button, h3 {
+        width: 90%;
+    }
+    .cajaInputSexo {
+        width: 90%;
+    }
+    .inputSexo label {
+        width: 35%;
+    }
+}
+@media (max-width: 425px){
+    header {
+        flex-direction: column;
+    }
+    header a {
+        padding: 2vh 0;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    form {
+        width: 95%;
+    }
+    form input, button, h3 {
+        width: 90%;
+    }
+    .cajaInputSexo {
+        width: 90%;
+    }
+    .inputSexo label {
+        width: 35%;
+    }
+}/*ver como achicar barra de navegacion con js - scrool https://www.youtube.com/watch?v=peVc8Gv0870&ab_channel=J%26GProyectosWeb*/
