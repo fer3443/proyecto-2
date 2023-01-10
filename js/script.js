@@ -89,3 +89,20 @@ if(document.title ==="Formulario"){
         }, 3000);
     })
 }
+
+if(document.title==="Index") {
+    const tbody= document.querySelector("#tbody")
+    const personalAMostrar= JSON.parse(localStorage.getItem("personal"))
+    const tableRow= document.createElement("tr")
+    tableRow.innerHTML= `
+    <td>${personal.apellido}</td>
+    <td>${personal.nombre}</td>
+    <td>${personal.edad}</td>
+    <td>${personal.mail}</td>
+    <td>${personal.telefono}</td>
+    <td>${personal.domicilio}</td>
+    <td>${personal.sexo}</td>
+    <td><button>Eliminar</button></td>
+    `
+    tbody.appendChild(tableRow)//ver como agregar datos a la tabla
+}

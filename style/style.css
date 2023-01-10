@@ -5,6 +5,10 @@
 }
 body {
     font-family: 'Fuzzy Bubbles', cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 header {
     display: flex;
