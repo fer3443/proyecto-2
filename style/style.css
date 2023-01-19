@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Raleway', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,13 @@ form {
     margin: 8vh auto 0 auto;
     padding: 2vh 0;
 }
-form input, button, h3 {
+form h3 {
+    width: 50%;
+    text-align: center;
+    padding: 1.6vh 0;
+    font-size: 1.4em;
+}
+form input, button {
     width: 50%;
     margin-bottom: 1vh;
     padding: 1.6vh 0;
@@ -92,7 +98,7 @@ form button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 2vw;
+    margin: 0.5vh 2vw;
     padding: 1.6vh 0;
     width: 80%;
 }

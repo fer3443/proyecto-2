@@ -1,55 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
-    <link rel="stylesheet" href="/style/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1>Nuevo Proyecto</h1>
-        <a href="/html/index.html">Home</a>
-        <a href="#">Link 2</a>
+      <h1>Nuevo Proyecto</h1>
+      <a href="/html/index.html">Home</a>
+      <a href="#">Link 2</a>
     </header>
     <main>
-        <h2>Sistema de registro del personal</h2>
-        <form id="form">
-            <h3>Registro</h3>
-            <input type="text" id="nombre" placeholder="Ingresar nombre" required>
-            <input type="text" id="apellido" placeholder="Ingresar apellido" required>
-            <input type="text" id="edad" placeholder="Ingresar edad" required>
-            <div class="cajaInputSexo">
-                <h5>Seleccione el sexo</h5>
-                <div class="inputSexo">
-                    <label for="M">Masculino</label>
-                    <input type="radio" name="sexo" id="M" value="M">
-                </div>
-                <div class="inputSexo">
-                    <label for="F">Femenino</label>
-                    <input type="radio" name="sexo" id="F" value="F">
-                </div>
-                <div class="inputSexo">
-                    <label for="O">Otro</label>
-                    <input type="radio" name="sexo" id="O" value="O">
-                </div>
-            </div>
-            <input type="email" id="user" placeholder="Ingresa e-mail" maxlength="18" required>
-            <input type="text" id="calle" placeholder="Ingresar calle" required>
-            <input type="text" id="numero" placeholder="Ingresar número" required>
-            <input type="text" id="ciudad" placeholder="Ingresar ciudad" required>
-            <input type="text" id="telefono" placeholder="Ingresar telefono" required>
-            <button id="botonRegistro">Enviar!</button>
-        </form>
-        <div class="alerta" id="notificacion">
-            <p>Cargaste los datos de forma correcta!</p>
+      <h2>Sistema de registro del personal</h2>
+      <form id="form">
+        <h3>Registro</h3>
+        <input type="text" id="nombre" placeholder="Ingresar nombre" required />
+        <input
+          type="text"
+          id="apellido"
+          placeholder="Ingresar apellido"
+          required
+        />
+        <input type="text" id="edad" placeholder="Ingresar edad" required />
+        <div class="cajaInputSexo">
+          <h5>Seleccione el sexo</h5>
+          <div class="inputSexo">
+            <label for="M">Masculino</label>
+            <input type="radio" name="sexo" id="M" value="M" />
+          </div>
+          <div class="inputSexo">
+            <label for="F">Femenino</label>
+            <input type="radio" name="sexo" id="F" value="F" />
+          </div>
+          <div class="inputSexo">
+            <label for="O">Otro</label>
+            <input type="radio" name="sexo" id="O" value="O" />
+          </div>
         </div>
+        <input
+          type="email"
+          id="user"
+          placeholder="Ingresa e-mail"
+          maxlength="18"
+          required
+        />
+        <input type="text" id="calle" placeholder="Ingresar calle" required />
+        <input type="text" id="numero" placeholder="Ingresar número" required />
+        <input type="text" id="ciudad" placeholder="Ingresar ciudad" required />
+        <input
+          type="text"
+          id="telefono"
+          placeholder="Ingresar telefono"
+          required
+        />
+        <button id="botonRegistro">Enviar!</button>
+      </form>
+      <div class="alerta" id="notificacion">
+        <p>Cargaste los datos de forma correcta!</p>
+      </div>
     </main>
     <footer>
-        <h4>Desarrollado por Fernando Arroyo Rodriguez - 2023</h4>
+      <h4>Desarrollado por Fernando Arroyo Rodriguez - 2023</h4>
     </footer>
     <script src="/js/script.js"></script>
-</body>
+  </body>
 </html>
